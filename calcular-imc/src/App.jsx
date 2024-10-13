@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import CalculoIMC from './components/calculoIMC'
+import CalculoIMC from './components/CalculoIMC'
 
 function App() {
   return (

@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.calculo {
+  width: 40vw;
+  min-width: 700px;
+  height: 45vh;
+  background: linear-gradient( hsla(0, 0%, 0%, 0.9) 60%, hsla(22, 77%, 14%, 0.4));
+  padding: 30px 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculo h1 {
+    margin-top: -30px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: #5f3c12 -4px 5px;
+    padding-left: 10px;
+    font-size: 60px;
+}
+
+.calculo form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+}
+
+.calculo label {
+    color: white;
+}
+
+.calculo form input {
+    width: 250px;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: black 2px 2px;
+    text-transform: uppercase;
+    height: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    gap: 30px;
+}
+
+.calculo form button {
+    width: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: Verdana, sans-serif;
+    font-weight: 800;
+    padding: 10px 0;
+    text-shadow: rgb(0, 0, 0) 4px 5px;
+    border: none;
+    box-shadow: rgba(179, 162, 149, 0.6) 3px 4px;
+}
+
+.calculo form button:active {
+    box-shadow: rgba(0, 0, 0, 0.6) 1px 2px;
+    color: rgb(199, 203, 206);
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botao-submit {
+    background-color: #1f4503;
+}
+
+.botao-submit:hover {
+    background-color: #0c1b01;
+    color: aliceblue;
+}
+
+.botao-limpar {
+    background-color: #3a1d09;
+}
+
+.botao-limpar:hover {
+    background-color: #1e0e04;
+    color: aliceblue;
+}
+
+.resultado {
+    margin-top: 40px;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.7), black);
+    color: rgb(255, 255, 255);
+    text-shadow: black -4px 2px;
+    width: 40vw;
+    min-width: 700px;
+    height: 280px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.resultado h2, p {
+    text-align: center;
+}
+
+.IMC {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.imc {
+    position: fixed;
+    margin-right: 470px;
+    margin-top: 11px;
+}
+
+.imagem {
+    margin-left: 175px;
+    margin-top: -7px;
+    position: fixed;
+    width: 420px;
+}

@@ -1,12 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .App {
-  background-color: bisque;
-  padding: 20px 120px;
-  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("assets/IMC.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
